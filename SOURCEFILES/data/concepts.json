@@ -1,0 +1,72 @@
+[
+    {
+        "id": "ml",
+        "title": "Machine Learning",
+        "category": "Artificial Intelligence",
+        "description": "Machine Learning (ML) is a subset of artificial intelligence that allows systems to learn patterns from historical data and improve performance without being explicitly programmed. It involves training algorithms (like linear regression, decision trees, or neural networks) on datasets to identify features, weights, and mathematical representations, enabling them to make predictions or decisions on unseen test data. Key workflows include data preprocessing, model selection, loss minimization via gradient descent, hyperparameter tuning, and validation.",
+        "keywords": ["supervised learning", "unsupervised learning", "gradient descent", "training data", "predictions", "features", "overfitting", "neural networks", "algorithms", "loss function"]
+    },
+    {
+        "id": "cloud",
+        "title": "Cloud Computing",
+        "category": "Infrastructure",
+        "description": "Cloud Computing is the on-demand delivery of computing services—including servers, storage, databases, networking, software, and analytics—over the internet (the cloud) with pay-as-you-go pricing. It replaces local hardware infrastructure with scalable, virtualized remote resources. Core service models are Infrastructure as a Service (IaaS), Platform as a Service (PaaS), and Software as a Service (SaaS). Key characteristics include rapid elasticity, resource pooling, broad network access, and measured service across public, private, or hybrid clouds.",
+        "keywords": ["on-demand", "virtualization", "scalability", "IaaS", "PaaS", "SaaS", "pay-as-you-go", "elasticity", "hybrid cloud", "redundancy"]
+    },
+    {
+        "id": "dbms",
+        "title": "Database Management Systems (DBMS)",
+        "category": "Data Engineering",
+        "description": "A Database Management System (DBMS) is software used to store, retrieve, define, modify, and manage structured databases securely and efficiently. It provides a systematic interface between databases and end-users, ensuring data integrity, consistency, and concurrency control. DBMS supports ACID properties (Atomicity, Consistency, Isolation, Durability) for transaction safety. It includes Relational (RDBMS) systems utilizing tables and SQL queries, as well as NoSQL systems (document, key-value, graph) designed for unstructured, distributed scaling.",
+        "keywords": ["ACID properties", "SQL", "concurrency control", "schema", "data integrity", "NoSQL", "transaction", "primary key", "indexing", "normalization"]
+    },
+    {
+        "id": "os",
+        "title": "Operating Systems",
+        "category": "Systems",
+        "description": "An Operating System (OS) is core system software that manages computer hardware resources, software applications, and provides common services for computer programs. It acts as an intermediary between the user and the computer hardware. Key functions of an OS include process management (scheduling and synchronization), memory management (paging, segmentation, virtual memory), file system management, device input/output control, and security protection. Common operating systems include Linux, Windows, macOS, and Android.",
+        "keywords": ["process scheduling", "virtual memory", "kernel", "file system", "system calls", "concurrency", "deadlock", "paging", "interrupts", "multitasking"]
+    },
+    {
+        "id": "python",
+        "title": "Python Programming",
+        "category": "Software Engineering",
+        "description": "Python is a high-level, interpreted, general-purpose programming language known for its code readability, clean syntax, and dynamic typing. It supports multiple programming paradigms, including object-oriented, imperative, functional, and procedural styles. Python uses automatic memory management through reference counting and garbage collection. Its extensive standard library and strong ecosystem make it highly popular for web development, data science, machine learning, scripting, and automation.",
+        "keywords": ["interpreted", "dynamic typing", "garbage collection", "syntax", "list comprehensions", "modules", "packages", "decorators", "object-oriented", "standard library"]
+    },
+    {
+        "id": "java",
+        "title": "Java Programming",
+        "category": "Software Engineering",
+        "description": "Java is a class-based, object-oriented, strongly-typed programming language designed to have as few implementation dependencies as possible, summarized by the mantra \"Write Once, Run Anywhere\" (WORA). Java code is compiled into bytecode, which runs inside a virtual machine (Java Virtual Machine, or JVM) regardless of the underlying hardware architecture. Key features of Java include robust exception handling, multi-threading, garbage collection, encapsulation, inheritance, polymorphism, and a massive runtime library.",
+        "keywords": ["JVM", "bytecode", "strongly-typed", "WORA", "polymorphism", "inheritance", "encapsulation", "multithreading", "garbage collection", "interfaces"]
+    },
+    {
+        "id": "networks",
+        "title": "Computer Networks",
+        "category": "Systems",
+        "description": "A Computer Network is a digital telecommunications network that allows independent nodes to share resources and communicate with each other using standard communication protocols. Data transmission is governed by network models like OSI (Open Systems Interconnection) with seven layers, or TCP/IP with four layers. Key concepts include routing, packet switching, IP addressing (IPv4/IPv6), subnetting, and protocol-based delivery (TCP for reliable connected streams, UDP for lightweight connectionless packets), DNS mapping, and cryptographic security protocols like TLS/SSL.",
+        "keywords": ["OSI model", "TCP/IP", "packet switching", "routing", "IP address", "DNS", "subnetting", "HTTP", "firewall", "bandwidth"]
+    },
+    {
+        "id": "ai",
+        "title": "Artificial Intelligence",
+        "category": "Artificial Intelligence",
+        "description": "Artificial Intelligence (AI) refers to the simulation of human intelligence processes by machines, especially computer systems. These processes include learning (the acquisition of information and rules for using it), reasoning (using rules to reach approximate or definite conclusions), self-correction, perception, and natural language understanding. AI branches encompass machine learning, deep learning, natural language processing (NLP), computer vision, robotics, expert systems, and modern Large Language Models (LLMs) that generate human-like reasoning outputs.",
+        "keywords": ["neural networks", "deep learning", "NLP", "computer vision", "robotics", "heuristics", "cognitive computing", "machine intelligence", "LLMs", "expert systems"]
+    },
+    {
+        "id": "structures",
+        "title": "Data Structures",
+        "category": "Computer Science",
+        "description": "A Data Structure is a specialized format for organizing, managing, and storing data on a computer so that it can be accessed and modified efficiently. Choosing the right data structure is critical for algorithm performance. Core linear structures include arrays, linked lists, stacks (LIFO), and queues (FIFO). Non-linear structures include trees (binary trees, AVL, BST) and graphs (nodes and edges). Specialized structures like hash tables provide near-instantaneous search and retrieval via hashing functions.",
+        "keywords": ["arrays", "linked lists", "stacks", "queues", "hash tables", "binary trees", "graphs", "complexity", "memory allocation", "pointers"]
+    },
+    {
+        "id": "algorithms",
+        "title": "Algorithms",
+        "category": "Computer Science",
+        "description": "An Algorithm is a finite, step-by-step, unambiguous set of instructions designed to solve a specific problem or perform a computation. Algorithms are analyzed for efficiency using Big O notation, which measures time complexity (execution speed) and space complexity (memory usage) relative to input size. Fundamental categories include sorting (quicksort, mergesort), searching (binary search), dynamic programming, divide-and-conquer, greedy approaches, and graph traversals (Breadth-First Search and Depth-First Search).",
+        "keywords": ["Big O notation", "time complexity", "space complexity", "sorting", "binary search", "recursion", "dynamic programming", "greedy", "mergesort", "graph traversal"]
+    }
+]

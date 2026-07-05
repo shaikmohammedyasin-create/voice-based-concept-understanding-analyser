@@ -1,0 +1,6 @@
+{
+  "name": "Voice-Based Concept Understanding Analyser",
+  "description": "An AI-powered educational assessment platform that evaluates conceptual understanding from spoken explanations, analyzing semantic coverage, fluency, filler words, pauses, and speech confidence.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
